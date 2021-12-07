@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		9166C21B275DE36B001F9BE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9166C21A275DE36B001F9BE7 /* AppDelegate.swift */; };
 		9166C21D275DE36B001F9BE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9166C21C275DE36B001F9BE7 /* SceneDelegate.swift */; };
-		9166C21F275DE36B001F9BE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9166C21E275DE36B001F9BE7 /* ViewController.swift */; };
+		9166C21F275DE36B001F9BE7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9166C21E275DE36B001F9BE7 /* FirstViewController.swift */; };
 		9166C222275DE36B001F9BE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9166C220275DE36B001F9BE7 /* Main.storyboard */; };
 		9166C224275DE370001F9BE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9166C223275DE370001F9BE7 /* Assets.xcassets */; };
 		9166C227275DE370001F9BE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9166C225275DE370001F9BE7 /* LaunchScreen.storyboard */; };
+		9166C22F275DE3AC001F9BE7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9166C22E275DE3AC001F9BE7 /* SecondViewController.swift */; };
+		9166C234275DE440001F9BE7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9166C233275DE440001F9BE7 /* Model.swift */; };
+		9166C236275DE864001F9BE7 /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9166C235275DE864001F9BE7 /* SecondTableViewCell.swift */; };
+		9166C238275DF89F001F9BE7 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9166C237275DF89F001F9BE7 /* ThirdViewController.swift */; };
+		9166C23A275DF969001F9BE7 /* ThirdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9166C239275DF969001F9BE7 /* ThirdTableViewCell.swift */; };
+		9166C23D275E0D8B001F9BE7 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9166C23C275E0D8B001F9BE7 /* MainCoordinator.swift */; };
+		9166C23F275E0E1C001F9BE7 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9166C23E275E0E1C001F9BE7 /* ModelManager.swift */; };
+		9166C241275E50B3001F9BE7 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9166C240275E50B3001F9BE7 /* Coordinator.swift */; };
+		9166C243275E6275001F9BE7 /* SecondCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9166C242275E6275001F9BE7 /* SecondCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9166C217275DE36B001F9BE7 /* FlowControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9166C21A275DE36B001F9BE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9166C21C275DE36B001F9BE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9166C21E275DE36B001F9BE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9166C21E275DE36B001F9BE7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		9166C221275DE36B001F9BE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9166C223275DE370001F9BE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9166C226275DE370001F9BE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9166C228275DE370001F9BE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9166C22E275DE3AC001F9BE7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9166C233275DE440001F9BE7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9166C235275DE864001F9BE7 /* SecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
+		9166C237275DF89F001F9BE7 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		9166C239275DF969001F9BE7 /* ThirdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTableViewCell.swift; sourceTree = "<group>"; };
+		9166C23C275E0D8B001F9BE7 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		9166C23E275E0E1C001F9BE7 /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		9166C240275E50B3001F9BE7 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		9166C242275E6275001F9BE7 /* SecondCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,56 @@
 		9166C219275DE36B001F9BE7 /* FlowControl */ = {
 			isa = PBXGroup;
 			children = (
+				9166C23E275E0E1C001F9BE7 /* ModelManager.swift */,
+				9166C232275DE41C001F9BE7 /* Models */,
+				9166C231275DE413001F9BE7 /* Views */,
+				9166C230275DE400001F9BE7 /* Controllers */,
+				9166C23B275E0D7C001F9BE7 /* Coordinator */,
+				9166C220275DE36B001F9BE7 /* Main.storyboard */,
 				9166C21A275DE36B001F9BE7 /* AppDelegate.swift */,
 				9166C21C275DE36B001F9BE7 /* SceneDelegate.swift */,
-				9166C21E275DE36B001F9BE7 /* ViewController.swift */,
-				9166C220275DE36B001F9BE7 /* Main.storyboard */,
 				9166C223275DE370001F9BE7 /* Assets.xcassets */,
 				9166C225275DE370001F9BE7 /* LaunchScreen.storyboard */,
 				9166C228275DE370001F9BE7 /* Info.plist */,
 			);
 			path = FlowControl;
+			sourceTree = "<group>";
+		};
+		9166C230275DE400001F9BE7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9166C21E275DE36B001F9BE7 /* FirstViewController.swift */,
+				9166C22E275DE3AC001F9BE7 /* SecondViewController.swift */,
+				9166C237275DF89F001F9BE7 /* ThirdViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9166C231275DE413001F9BE7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9166C235275DE864001F9BE7 /* SecondTableViewCell.swift */,
+				9166C239275DF969001F9BE7 /* ThirdTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9166C232275DE41C001F9BE7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9166C233275DE440001F9BE7 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9166C23B275E0D7C001F9BE7 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				9166C240275E50B3001F9BE7 /* Coordinator.swift */,
+				9166C23C275E0D8B001F9BE7 /* MainCoordinator.swift */,
+				9166C242275E6275001F9BE7 /* SecondCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +197,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9166C21F275DE36B001F9BE7 /* ViewController.swift in Sources */,
+				9166C234275DE440001F9BE7 /* Model.swift in Sources */,
+				9166C23A275DF969001F9BE7 /* ThirdTableViewCell.swift in Sources */,
+				9166C243275E6275001F9BE7 /* SecondCoordinator.swift in Sources */,
+				9166C22F275DE3AC001F9BE7 /* SecondViewController.swift in Sources */,
+				9166C21F275DE36B001F9BE7 /* FirstViewController.swift in Sources */,
+				9166C238275DF89F001F9BE7 /* ThirdViewController.swift in Sources */,
 				9166C21B275DE36B001F9BE7 /* AppDelegate.swift in Sources */,
+				9166C241275E50B3001F9BE7 /* Coordinator.swift in Sources */,
 				9166C21D275DE36B001F9BE7 /* SceneDelegate.swift in Sources */,
+				9166C23F275E0E1C001F9BE7 /* ModelManager.swift in Sources */,
+				9166C236275DE864001F9BE7 /* SecondTableViewCell.swift in Sources */,
+				9166C23D275E0D8B001F9BE7 /* MainCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +362,6 @@
 				INFOPLIST_FILE = FlowControl/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +389,6 @@
 				INFOPLIST_FILE = FlowControl/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
